@@ -1228,6 +1228,10 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Hands.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
@@ -1268,12 +1272,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    <Reference Include="Unity.XR.Hands">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Management">
@@ -1386,6 +1394,14 @@
       <Project>{3D3A64C0-7150-F58F-EE07-1EEEB893DD35}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{F9AFA4F6-D221-3458-0B02-26AA76206243}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{4566AE7D-C6D3-C71D-8474-65399591C761}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
     <ProjectReference Include="Pico.Spatializer.Editor.csproj">
       <Project>{86876B12-009B-041F-6676-69B16AF9C04F}</Project>
       <Name>Pico.Spatializer.Editor</Name>
@@ -1393,6 +1409,18 @@
     <ProjectReference Include="PICO.Platform.Editor.csproj">
       <Project>{CA5BCCAA-B799-D7DF-C361-EAB6615F5DC7}</Project>
       <Name>PICO.Platform.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{6F122A5A-0E31-A5E0-0EA0-27F612161767}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.PICO.LivePreview.Editor.csproj">
+      <Project>{FD8F163A-1948-269B-3FF8-F081B5B97657}</Project>
+      <Name>Unity.XR.PICO.LivePreview.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{7353436D-86CD-B61C-3A4C-3E51D8561A28}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.PICO.Editor.csproj">
       <Project>{3AC01CDA-6849-EEC6-9503-3A8C0D83A8DA}</Project>
@@ -1402,13 +1430,25 @@
       <Project>{70668E56-4534-3D94-D3EA-E0074B91087D}</Project>
       <Name>Pico.Spatializer.Example</Name>
     </ProjectReference>
+    <ProjectReference Include="ColliderX.Editor.csproj">
+      <Project>{6C766ABD-7A9E-2F17-76CB-4B5E37BB4642}</Project>
+      <Name>ColliderX.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PICO.TobSupport.csproj">
       <Project>{FE570713-34AB-9BDF-DA3D-2EC6BEC5D4B1}</Project>
       <Name>PICO.TobSupport</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.PICO.LivePreview.csproj">
+      <Project>{7B9FC6EB-82FD-C687-387E-14AD06345252}</Project>
+      <Name>Unity.XR.PICO.LivePreview</Name>
+    </ProjectReference>
     <ProjectReference Include="Pico.Spatializer.csproj">
       <Project>{DD8BB99E-6E41-6C0F-3F7C-1BFADAC67602}</Project>
       <Name>Pico.Spatializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{0CE1F13A-1238-41BE-F277-A34C4A1EDBEE}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
     </ProjectReference>
     <ProjectReference Include="PICO.Platform.csproj">
       <Project>{AEC6C5B7-102C-2D10-80A2-7015E8A92DAA}</Project>

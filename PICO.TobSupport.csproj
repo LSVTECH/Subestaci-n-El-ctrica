@@ -163,11 +163,11 @@
     <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Enterprise\Scripts\Model\Intent.cs">
       <Link>Enterprise\Scripts\Model\Intent.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Enterprise\Scripts\Enums\HomeFunctionEnum.cs">
-      <Link>Enterprise\Scripts\Enums\HomeFunctionEnum.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs">
       <Link>Enterprise\Scripts\Enums\PoseErrorTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Enterprise\Scripts\Enums\HomeFunctionEnum.cs">
+      <Link>Enterprise\Scripts\Enums\HomeFunctionEnum.cs</Link>
     </Compile>
     <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Enterprise\Scripts\Enums\PICOCastUrlTypeEnum.cs">
       <Link>Enterprise\Scripts\Enums\PICOCastUrlTypeEnum.cs</Link>
