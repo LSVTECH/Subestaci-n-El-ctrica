@@ -55,42 +55,42 @@
     <UnityVersion>6000.0.40f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PlatformConfig.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PlatformConfig.cs">
       <Link>Platform\Editor\PlatformConfig.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PlatformPreprocessor.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PlatformPreprocessor.cs">
       <Link>Platform\Editor\PlatformPreprocessor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PicoGs.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PicoGs.cs">
       <Link>Platform\Editor\PicoGs.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PXR_PlatformSettingEditor.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PXR_PlatformSettingEditor.cs">
       <Link>Platform\Editor\PXR_PlatformSettingEditor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\Gs.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\Gs.cs">
       <Link>Platform\Editor\Gs.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\EditorConf.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\EditorConf.cs">
       <Link>Platform\Editor\EditorConf.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\Menu.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\Menu.cs">
       <Link>Platform\Editor\Menu.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PcConfig.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PcConfig.cs">
       <Link>Platform\Editor\PcConfig.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PlatformManifestRewrite.cs">
+    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PlatformManifestRewrite.cs">
       <Link>Platform\Editor\PlatformManifestRewrite.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Platform\Editor\PICO.Platform.Editor.asmdef">
+    <None Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\Platform\Editor\PICO.Platform.Editor.asmdef">
       <Link>Platform\Editor\PICO.Platform.Editor.asmdef</Link>
     </None>
   </ItemGroup>
@@ -575,12 +575,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.UWP.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
@@ -625,6 +625,18 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.Apple.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
