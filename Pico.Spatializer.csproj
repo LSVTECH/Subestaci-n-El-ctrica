@@ -61,45 +61,45 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioListener.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioSource.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioSource.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AudioSource.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_MRSceneGeometryManager.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_MRSceneGeometryManager.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_MRSceneGeometryManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_API.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_Context.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Runtime\PXR_Audio_Spatializer_Types.cs">
+    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Runtime\PXR_Audio_Spatializer_Types.cs">
       <Link>SpatialAudio\Runtime\PXR_Audio_Spatializer_Types.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Pico.Spatializer.asmdef">
+    <None Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Pico.Spatializer.asmdef">
       <Link>SpatialAudio\Pico.Spatializer.asmdef</Link>
     </None>
-    <None Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Plugins\Win\x64\PicoAudioRouter.dll">
+    <None Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Plugins\Win\x64\PicoAudioRouter.dll">
       <Link>SpatialAudio\Plugins\Win\x64\PicoAudioRouter.dll</Link>
     </None>
-    <None Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Plugins\Win\x64\PicoAmbisonicDecoder.dll">
+    <None Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Plugins\Win\x64\PicoAmbisonicDecoder.dll">
       <Link>SpatialAudio\Plugins\Win\x64\PicoAmbisonicDecoder.dll</Link>
     </None>
-    <None Include="C:\Users\Deiver Vasquez\Downloads\PICO Unity Integration SDK-3.0.5-20241105\SpatialAudio\Plugins\Win\x64\PicoSpatializer.dll">
+    <None Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\SpatialAudio\Plugins\Win\x64\PicoSpatializer.dll">
       <Link>SpatialAudio\Plugins\Win\x64\PicoSpatializer.dll</Link>
     </None>
   </ItemGroup>
@@ -564,12 +564,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
@@ -614,18 +614,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.Apple.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.Apple.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

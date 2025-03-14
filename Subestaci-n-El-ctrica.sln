@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICO.Platform", "PICO.Platf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICO.TobSupport", "PICO.TobSupport.csproj", "{FE570713-34AB-9BDF-DA3D-2EC6BEC5D4B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PICO.LivePreview", "Unity.XR.PICO.LivePreview.csproj", "{7B9FC6EB-82FD-C687-387E-14AD06345252}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PICO.Editor", "Unity.XR.PICO.Editor.csproj", "{3AC01CDA-6849-EEC6-9503-3A8C0D83A8DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.Hands", "Unity.XR.Interaction.Toolkit.Samples.Hands.csproj", "{0CE1F13A-1238-41BE-F277-A34C4A1EDBEE}"
@@ -34,8 +32,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColliderX.Editor", "ColliderX.Editor.csproj", "{6C766ABD-7A9E-2F17-76CB-4B5E37BB4642}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj", "{7353436D-86CD-B61C-3A4C-3E51D8561A28}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.PICO.LivePreview.Editor", "Unity.XR.PICO.LivePreview.Editor.csproj", "{FD8F163A-1948-269B-3FF8-F081B5B97657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +59,6 @@ Global
 		{FE570713-34AB-9BDF-DA3D-2EC6BEC5D4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE570713-34AB-9BDF-DA3D-2EC6BEC5D4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE570713-34AB-9BDF-DA3D-2EC6BEC5D4B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B9FC6EB-82FD-C687-387E-14AD06345252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B9FC6EB-82FD-C687-387E-14AD06345252}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B9FC6EB-82FD-C687-387E-14AD06345252}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B9FC6EB-82FD-C687-387E-14AD06345252}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3AC01CDA-6849-EEC6-9503-3A8C0D83A8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3AC01CDA-6849-EEC6-9503-3A8C0D83A8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AC01CDA-6849-EEC6-9503-3A8C0D83A8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -111,10 +103,6 @@ Global
 		{7353436D-86CD-B61C-3A4C-3E51D8561A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7353436D-86CD-B61C-3A4C-3E51D8561A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7353436D-86CD-B61C-3A4C-3E51D8561A28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD8F163A-1948-269B-3FF8-F081B5B97657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD8F163A-1948-269B-3FF8-F081B5B97657}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD8F163A-1948-269B-3FF8-F081B5B97657}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD8F163A-1948-269B-3FF8-F081B5B97657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
