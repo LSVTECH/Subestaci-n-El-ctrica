@@ -1,21 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="Current">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
   </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>9.0</LangVersion>
+    <Configurations>Debug;Release</Configurations>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5855F602-C8FA-9EBD-1CDB-592CAD9BC705}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.PICO</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -39,214 +44,213 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoConfig>true</NoConfig>
+    <NoStandardLibraries>true</NoStandardLibraries>
     <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
-    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
   </PropertyGroup>
   <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>6000.0.40f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\lsv-t\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\InputSystem\DeviceLayouts.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\InputSystem\DeviceLayouts.cs">
       <Link>Runtime\InputSystem\DeviceLayouts.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Loader.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Loader.cs">
       <Link>Runtime\Scripts\PXR_Loader.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerPower.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerPower.cs">
       <Link>Runtime\Scripts\Controller\PXR_ControllerPower.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SceneCaptureManager.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SceneCaptureManager.cs">
       <Link>Runtime\Scripts\SensePack\PXR_SceneCaptureManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialMeshManager.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialMeshManager.cs">
       <Link>Runtime\Scripts\SensePack\PXR_SpatialMeshManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialAnchor.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialAnchor.cs">
       <Link>Runtime\Scripts\SensePack\PXR_SpatialAnchor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Plugin.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Plugin.cs">
       <Link>Runtime\Scripts\PXR_Plugin.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_AnchorSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_AnchorSubsystem.cs">
       <Link>Runtime\Subsystem\PXR_AnchorSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerAnimator.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerAnimator.cs">
       <Link>Runtime\Scripts\Controller\PXR_ControllerAnimator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_HandTracking.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_HandTracking.cs">
       <Link>Runtime\Scripts\Features\PXR_HandTracking.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_BlendShapeVisualizer.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_BlendShapeVisualizer.cs">
       <Link>Runtime\Subsystem\PXR_BlendShapeVisualizer.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_ObjImporter.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_ObjImporter.cs">
       <Link>Runtime\Scripts\Utils\PXR_ObjImporter.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerLoader.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerLoader.cs">
       <Link>Runtime\Scripts\Controller\PXR_ControllerLoader.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_Hand.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_Hand.cs">
       <Link>Runtime\Scripts\Hand\PXR_Hand.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_ObjectTrackingBlock.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_ObjectTrackingBlock.cs">
       <Link>Runtime\BuildingBlocks\PXR_ObjectTrackingBlock.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Settings.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Settings.cs">
       <Link>Runtime\Scripts\PXR_Settings.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_System.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_System.cs">
       <Link>Runtime\Scripts\Features\PXR_System.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonData.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonData.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonData.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonReader.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonReader.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonReader.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandSubsystem.cs">
       <Link>Runtime\Scripts\Hand\PXR_HandSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_SessionSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_SessionSubsystem.cs">
       <Link>Runtime\Subsystem\PXR_SessionSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs">
       <Link>Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonException.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonException.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonException.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_ProjectSetting.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_ProjectSetting.cs">
       <Link>Runtime\Scripts\PXR_ProjectSetting.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_ARCameraEffectManager.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_ARCameraEffectManager.cs">
       <Link>Runtime\Subsystem\PXR_ARCameraEffectManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_RaycastSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_RaycastSubsystem.cs">
       <Link>Runtime\Subsystem\PXR_RaycastSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_LateLatching.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_LateLatching.cs">
       <Link>Runtime\Scripts\Features\PXR_LateLatching.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_PhfFile.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_PhfFile.cs">
       <Link>Runtime\Scripts\Utils\PXR_PhfFile.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonWriter.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonWriter.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonWriter.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_BodyTrackingDebugBlock.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_BodyTrackingDebugBlock.cs">
       <Link>Runtime\BuildingBlocks\PXR_BodyTrackingDebugBlock.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_FaceSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_FaceSubsystem.cs">
       <Link>Runtime\Subsystem\PXR_FaceSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_EyeTracking.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_EyeTracking.cs">
       <Link>Runtime\Scripts\Features\PXR_EyeTracking.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_OverLay.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_OverLay.cs">
       <Link>Runtime\Scripts\Features\PXR_OverLay.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_ScreenFade.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_ScreenFade.cs">
       <Link>Runtime\Scripts\Features\PXR_ScreenFade.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\SliderText.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\SliderText.cs">
       <Link>Runtime\BuildingBlocks\SliderText.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_MotionTracking.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_MotionTracking.cs">
       <Link>Runtime\Scripts\Features\PXR_MotionTracking.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_CameraEffectBlock.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_CameraEffectBlock.cs">
       <Link>Runtime\BuildingBlocks\PXR_CameraEffectBlock.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\ParserToken.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\ParserToken.cs">
       <Link>Runtime\Scripts\Utils\LitJson\ParserToken.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_FoveationRendering.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_FoveationRendering.cs">
       <Link>Runtime\Scripts\Features\PXR_FoveationRendering.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonMapper.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonMapper.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonMapper.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Manager.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Manager.cs">
       <Link>Runtime\Scripts\PXR_Manager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\Lexer.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\Lexer.cs">
       <Link>Runtime\Scripts\Utils\LitJson\Lexer.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerWithHandAnimator.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerWithHandAnimator.cs">
       <Link>Runtime\Scripts\Controller\PXR_ControllerWithHandAnimator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_Log.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_Log.cs">
       <Link>Runtime\Scripts\Utils\PXR_Log.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_VstModelPosCheck.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\PXR_VstModelPosCheck.cs">
       <Link>Runtime\Scripts\Utils\PXR_VstModelPosCheck.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPosePreview.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPosePreview.cs">
       <Link>Runtime\Scripts\Hand\PXR_HandPosePreview.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_OverlayManager.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_OverlayManager.cs">
       <Link>Runtime\Scripts\PXR_OverlayManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Usages.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\PXR_Usages.cs">
       <Link>Runtime\Scripts\PXR_Usages.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_CameraSubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_CameraSubsystem.cs">
       <Link>Runtime\Subsystem\PXR_CameraSubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPoseGenerator.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPoseGenerator.cs">
       <Link>Runtime\Scripts\Hand\PXR_HandPoseGenerator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerG3Animator.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Controller\PXR_ControllerG3Animator.cs">
       <Link>Runtime\Scripts\Controller\PXR_ControllerG3Animator.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_BodyTrackingBlock.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\BuildingBlocks\PXR_BodyTrackingBlock.cs">
       <Link>Runtime\BuildingBlocks\PXR_BodyTrackingBlock.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs">
       <Link>Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPose.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPose.cs">
       <Link>Runtime\Scripts\Hand\PXR_HandPose.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_MixedReality.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_MixedReality.cs">
       <Link>Runtime\Scripts\Features\PXR_MixedReality.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPoseConfig.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Hand\PXR_HandPoseConfig.cs">
       <Link>Runtime\Scripts\Hand\PXR_HandPoseConfig.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_HumanBodySubsystem.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Subsystem\PXR_HumanBodySubsystem.cs">
       <Link>Runtime\Subsystem\PXR_HumanBodySubsystem.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_Boundary.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_Boundary.cs">
       <Link>Runtime\Scripts\Features\PXR_Boundary.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs">
       <Link>Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_Input.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\Features\PXR_Input.cs">
       <Link>Runtime\Scripts\Features\PXR_Input.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialMeshColorSetting.cs">
+    <Compile Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Scripts\SensePack\PXR_SpatialMeshColorSetting.cs">
       <Link>Runtime\Scripts\SensePack\PXR_SpatialMeshColorSetting.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\chris\Downloads\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Unity.XR.PICO.asmdef">
+    <None Include="C:\Users\lsv-t\OneDrive\Documentos\UnityPackages\PICO Unity Integration SDK_3.1.0_20250109\Runtime\Unity.XR.PICO.asmdef">
       <Link>Runtime\Unity.XR.PICO.asmdef</Link>
     </None>
   </ItemGroup>
@@ -1286,13 +1290,16 @@
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
 </Project>

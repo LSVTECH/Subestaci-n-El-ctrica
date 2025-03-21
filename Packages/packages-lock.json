@@ -95,7 +95,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.pico.livepreview": {
-      "version": "file:C:/Users/Deiver Vasquez/Downloads/Unity Live Preview Plugin-1.0.4-20241205",
+      "version": "file:C:/Users/lsv-t/OneDrive/Documentos/UnityPackages/Unity Live Preview Plugin-1.0.5-20250211",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -287,7 +287,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/Users/chris/Downloads/PICO Unity Integration SDK_3.1.0_20250109",
+      "version": "file:C:/Users/lsv-t/OneDrive/Documentos/UnityPackages/PICO Unity Integration SDK_3.1.0_20250109",
       "depth": 0,
       "source": "local",
       "dependencies": {
