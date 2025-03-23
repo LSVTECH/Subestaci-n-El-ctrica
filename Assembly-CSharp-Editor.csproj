@@ -1,26 +1,21 @@
-﻿<Project ToolsVersion="Current">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
-  </PropertyGroup>
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Include="Unity" />
-  </ItemGroup>
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <EnableDefaultItems>false</EnableDefaultItems>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <LangVersion>9.0</LangVersion>
-    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+    <ProjectGuid>{0E26A2B5-CFD0-57D6-D6C6-5C6EC34A0697}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -44,22 +39,23 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoStandardLibraries>true</NoStandardLibraries>
-    <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
-    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>6000.0.40f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\lsv-t\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -1691,32 +1687,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
-    <ProjectReference Include="Assembly-CSharp.csproj" />
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj" />
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj" />
-    <ProjectReference Include="Autohand.MetaXR.Editor.csproj" />
-    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
-    <ProjectReference Include="Autohand.OpenXR.Editor.csproj" />
-    <ProjectReference Include="AutoHandAssembly.csproj" />
-    <ProjectReference Include="Autohand.OpenXR.csproj" />
-    <ProjectReference Include="Autohand.MetaXR.csproj" />
-    <ProjectReference Include="Autohand.XR.csproj" />
-    <ProjectReference Include="ColliderX.Editor.csproj" />
-    <ProjectReference Include="Autohand.Editor.csproj" />
-    <ProjectReference Include="Autohand.XR.Editor.csproj" />
-    <ProjectReference Include="NaughtyAttributes.Core.csproj" />
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0AC3FE90-F413-C3F3-FE9D-12567FAAFCFF}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{3D3A64C0-7150-F58F-EE07-1EEEB893DD35}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{2C8D0C02-C6FC-C78F-BBC9-4B653D19FF63}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{4031CAAA-D3C0-9BD5-97EA-D3A749CD6627}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.MetaXR.Editor.csproj">
+      <Project>{FC4AE362-8178-59D6-795D-A3490B2AB0E3}</Project>
+      <Name>Autohand.MetaXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
+      <Project>{6F122A5A-0E31-A5E0-0EA0-27F612161767}</Project>
+      <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.OpenXR.Editor.csproj">
+      <Project>{C72ECB83-C6CD-244F-3CEB-3B447FCADD60}</Project>
+      <Name>Autohand.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AutoHandAssembly.csproj">
+      <Project>{320F65AC-0027-729B-95D5-6EA02F514B1A}</Project>
+      <Name>AutoHandAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.OpenXR.csproj">
+      <Project>{5A5803A2-5345-944A-65D5-A77598430ABE}</Project>
+      <Name>Autohand.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.MetaXR.csproj">
+      <Project>{80F12D54-7E7E-5352-4471-701755A61081}</Project>
+      <Name>Autohand.MetaXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.XR.csproj">
+      <Project>{A63362B3-E1CA-97CD-62F5-28BF9CC0558A}</Project>
+      <Name>Autohand.XR</Name>
+    </ProjectReference>
+    <ProjectReference Include="ColliderX.Editor.csproj">
+      <Project>{6C766ABD-7A9E-2F17-76CB-4B5E37BB4642}</Project>
+      <Name>ColliderX.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.Editor.csproj">
+      <Project>{C2E63577-1F34-ADAF-DC2A-BDDDF2B402AF}</Project>
+      <Name>Autohand.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autohand.XR.Editor.csproj">
+      <Project>{88EE1FEE-49F2-601E-1256-2F90AEB97285}</Project>
+      <Name>Autohand.XR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{A68E0051-640F-C156-7F2E-419A6A6CD73A}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
   </ItemGroup>
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Remove="LaunchProfiles" />
-    <ProjectCapability Remove="SharedProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
-    <ProjectCapability Remove="ProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerProjects" />
-    <ProjectCapability Remove="COMReferences" />
-    <ProjectCapability Remove="ReferenceManagerCOM" />
-    <ProjectCapability Remove="AssemblyReferences" />
-    <ProjectCapability Remove="ReferenceManagerAssemblies" />
-  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>
