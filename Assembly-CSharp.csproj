@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Mesh Optimizer\Scripts\OptimizeMesh.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\GogoGaga\OptimizedRopesAndCables\Script\RopeMesh.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -1707,9 +1708,17 @@
       <Project>{C72ECB83-C6CD-244F-3CEB-3B447FCADD60}</Project>
       <Name>Autohand.OpenXR.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Whinarn.UnityMeshSimplifier.Runtime.csproj">
+      <Project>{DD6FC224-9D00-ABE9-32DB-79EDEA98B6B3}</Project>
+      <Name>Whinarn.UnityMeshSimplifier.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="AutoHandAssembly.csproj">
       <Project>{320F65AC-0027-729B-95D5-6EA02F514B1A}</Project>
       <Name>AutoHandAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Whinarn.UnityMeshSimplifier.Editor.csproj">
+      <Project>{E95826AE-C945-98F8-648D-E20C7C466DE1}</Project>
+      <Name>Whinarn.UnityMeshSimplifier.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Autohand.OpenXR.csproj">
       <Project>{5A5803A2-5345-944A-65D5-A77598430ABE}</Project>
