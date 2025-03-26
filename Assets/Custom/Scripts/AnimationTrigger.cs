@@ -8,6 +8,9 @@ public class AnimationTrigger : MonoBehaviour
 
     public AudioSource openPopUpSound;
 
+    public GameObject popupPiezas;
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other == playerCollider)
@@ -24,6 +27,18 @@ public class AnimationTrigger : MonoBehaviour
         {
             animator.SetBool(boolParameterName, false);
         }
+    }
+
+    public void PopupPiezas()
+    {
+        popupPiezas.SetActive(true);
+        animator.SetBool(boolParameterName, true);
+    }
+
+    public void SoltarPiezas()
+    {
+        popupPiezas.SetActive(false);
+        animator.SetBool (boolParameterName, false);
     }
 }
 
